@@ -1,0 +1,11 @@
+{
+  "mongoose": {
+    "uri": "mongodb://oleg:hippi26@ds237475.mlab.com:37475/dental-box",
+    "password":"hippi26",
+    "user":"oleg",
+    "db":"dental-box",
+    "uri2":"mongodb://stats:hippi26@ds137913.mlab.com:37913/statistycs"
+  },
+  "port": 7777,
+  "my_sql": ""
+}

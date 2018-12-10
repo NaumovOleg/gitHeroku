@@ -1,0 +1,54 @@
+.image-uploader {
+  &__container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: calc(100vh - 112.7px);
+  }
+
+  &__success {
+    max-width: 70vw;
+    color: #008fba;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    &__data {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 10px 0;
+      max-height: 250px;
+      overflow-y: auto;
+    }
+  }
+  &__form {
+    text-align: center;
+    &__title {
+      font-weight: 300;
+    }
+    &__input {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+
+      input {
+        background: rgb(247, 247, 247);
+        padding: 10px;
+      }
+    }
+    &__btns {
+      margin-top: 15px;
+      text-align: center;
+      button {
+        font-size: 14px;
+        color: #fff;
+        padding: 10px 25px;
+        border-radius: 15px;
+        background: #17a2b8;
+      }      
+    }
+  }
+}
